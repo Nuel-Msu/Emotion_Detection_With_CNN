@@ -49,10 +49,6 @@ Callbacks are implemented during training to save the best model checkpoint base
 Results
 After training for a certain number of epochs, evaluate the model's performance on the validation set to assess its accuracy. Below are the plots showing the training and validation accuracy and loss over epochs:
 
-# Training and Validation Plots
-
-## Training and Validation Plots
-
 ## Training and Validation Plots
 
 ### Model Accuracy
