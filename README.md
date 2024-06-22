@@ -24,3 +24,37 @@ To run the code, make sure you have TensorFlow and other necessary libraries ins
 
 ```bash
 pip install tensorflow matplotlib pillow
+
+##Running the Code
+
+Clone this repository or download the script files.
+Navigate to the directory containing the script files.
+
+##Data Preprocessing
+Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
+
+##Model Architecture
+The CNN model architecture is defined as follows:
+
+Input Layer: Accepts grayscale images of size 48x48 pixels.
+Convolutional Layers: Three sets of Conv2D, BatchNormalization, Activation (ReLU), MaxPooling2D, and Dropout layers.
+Fully Connected Layers: Two Dense layers with BatchNormalization, ReLU activation, and Dropout.
+Output Layer: Dense layer with softmax activation for multi-class classification.
+The model is compiled with the Adam optimizer and categorical cross-entropy loss function.
+
+#Training
+Training is performed using ImageDataGenerator.flow_from_directory to load batches of images directly from directories, enabling efficient data handling and preprocessing.
+
+##Checkpointing and Early Stopping
+Callbacks are implemented during training to save the best model checkpoint based on validation accuracy and to stop training early if no improvement is observed
+
+##Results
+After training for a certain number of epochs, evaluate the model's performance on the validation set to assess its accuracy. Below are the plots showing the training and validation accuracy and loss over epochs:
+
+##Training and Validation Plots
+
+
+
+Acknowledgments
+- Dataset: Kaggle "Facial Expression Recognition Dataset"
+- Inspired by Deep Learning and Computer Vision courses and tutorials
