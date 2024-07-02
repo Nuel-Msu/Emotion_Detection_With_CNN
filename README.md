@@ -29,7 +29,7 @@ pip install tensorflow matplotlib pillow
 - Clone this repository or download the script files.
 - Navigate to the directory containing the script files.
 
-# Data Processing
+# Data Preprocessing
 Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
 
 # Model Architecture
