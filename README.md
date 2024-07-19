@@ -53,12 +53,9 @@ After training for a certain number of epochs, evaluate the model's performance 
 
 ### Model Accuracy
 
-![Model Accuracy](C:\Users\olade\OneDrive\Desktop\Model validation.png)
+![Screenshot 2024-06-22 014649](https://github.com/user-attachments/assets/c754d307-9a14-4c32-a42a-14a5e7b97f11)
 
-### Model Loss
-
-![Model Loss](C:\Users\olade\OneDrive\Desktop\model accuracy.png)
-
+![Screenshot 2024-06-22 014640](https://github.com/user-attachments/assets/d3868581-e115-4783-a919-93c4d85a3def)
 
 
 
