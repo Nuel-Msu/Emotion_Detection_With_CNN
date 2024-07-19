@@ -16,14 +16,19 @@ The dataset used for training and validation is the Facial Expression Recognitio
 - 28,821 training images
 - 7,066 validation images
 
-## Setup
+## Installation
 
 ### Environment
 
 To run the code, make sure you have TensorFlow and other necessary libraries installed. You can install them using pip:
 
-bash
+'''bash
 pip install tensorflow matplotlib pillow
+'''
+```bash
+git clone https://github.com/atulapra/Emotion-detection.git
+cd Emotion-detection
+```
 
 # Running the Code
 - Clone this repository or download the script files.
@@ -51,7 +56,7 @@ After training for a certain number of epochs, evaluate the model's performance 
 
 ## Training and Validation Plots
 
-### Model Accuracy & Loss Accuracy
+### Model Accuracy 
 
 ![Model Accuracy](https://github.com/user-attachments/assets/df760943-813e-4392-bf8e-e402b715c942)
 
