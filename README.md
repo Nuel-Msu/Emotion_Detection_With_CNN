@@ -25,14 +25,14 @@ The dataset used for training and validation is the Facial Expression Recognitio
 
 To run the code, make sure you have TensorFlow and other necessary libraries installed. You can install them using pip:
 bash
-pip install tensorflow matplotlib pillow
-To install the required packages, run `pip install -r requirements.txt`.
+- pip install tensorflow matplotlib pillow
+- To install the required packages, run `pip install -r requirements.txt`.
 
 
 # Running the Code
 ```bash
 git clone https://github.com/Nuel-Msu/Emotion_Detection_With_CNN.git
-cd Emotion-detection
+cd DetectEmotion
 ```
 
 # Data Preprocessing
