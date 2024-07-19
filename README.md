@@ -32,7 +32,7 @@ bash
 # Running the Code
 ```bash
 git clone https://github.com/Nuel-Msu/Emotion_Detection_With_CNN.git
-cd DetectEmotion
+cd DetectEmotion.py
 ```
 
 # Data Preprocessing
