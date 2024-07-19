@@ -57,10 +57,12 @@ Callbacks are implemented during training to save the best model checkpoint base
 # Results
 After training for a certain number of epochs, evaluate the model's performance on the validation set to assess its accuracy. Below are the plots showing the training and validation accuracy and loss over epochs:
 
-![Screenshot 2024-07-04 204838](https://github.com/user-attachments/assets/9ede38b9-7bcc-46f1-900c-b7be09c39725)
-![Screenshot 2024-07-04 204043](https://github.com/user-attachments/assets/7eec72af-0828-4672-859a-a031cdcc9d31)
-![Screenshot 2024-07-04 205112](https://github.com/user-attachments/assets/3b9b7df3-3c00-44fd-8ec3-d2c972477e62)
-![Screenshot 2024-07-04 205112](https://github.com/user-attachments/assets/d685eb43-5256-400d-8c78-0cdf0fcf0368)
+![Screenshot 2024-07-04 205145](https://github.com/user-attachments/assets/9d4d7473-22cf-4ebc-8379-f847187b8a6c)
+![Screenshot 2024-07-04 204939](https://github.com/user-attachments/assets/338f80cf-de70-4d48-bafa-aa097b48b027)
+![Screenshot 2024-07-04 204218](https://github.com/user-attachments/assets/50ff4d8f-3e42-4327-a0e7-7a9bd12dfc81)
+![Screenshot 2024-07-04 204146](https://github.com/user-attachments/assets/9825b362-6494-4a66-985b-2316f1799d5d)
+![Screenshot 2024-07-04 204104](https://github.com/user-attachments/assets/bc02f035-f295-4948-bb9e-78686d738e56)
+![Screenshot 2024-07-04 204043](https://github.com/user-attachments/assets/436d8c22-0871-4f08-a9d3-42cf39fe4156)
 
 ## Training and Validation Plots
 
