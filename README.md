@@ -9,6 +9,9 @@ This repository contains code for building a Convolutional Neural Network (CNN) 
 - NumPy
 - Matplotlib
 - PIL (Python Imaging Library)
+- Python 3,
+- [OpenCV](https://opencv.org/)
+- [Tensorflow](https://www.tensorflow.org/)
 
 ## Dataset
 
@@ -21,9 +24,10 @@ The dataset used for training and validation is the Facial Expression Recognitio
 ### Environment
 
 To run the code, make sure you have TensorFlow and other necessary libraries installed. You can install them using pip:
-'''bash
+bash
 pip install tensorflow matplotlib pillow
-'''
+To install the required packages, run `pip install -r requirements.txt`.
+
 
 # Running the Code
 ```bash
