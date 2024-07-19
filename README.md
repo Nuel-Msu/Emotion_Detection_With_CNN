@@ -21,18 +21,15 @@ The dataset used for training and validation is the Facial Expression Recognitio
 ### Environment
 
 To run the code, make sure you have TensorFlow and other necessary libraries installed. You can install them using pip:
-
 '''bash
 pip install tensorflow matplotlib pillow
 '''
-```bash
-git clone https://github.com/atulapra/Emotion-detection.git
-cd Emotion-detection
-```
 
 # Running the Code
-- Clone this repository or download the script files.
-- Navigate to the directory containing the script files.
+```bash
+git clone https://github.com/Nuel-Msu/Emotion_Detection_With_CNN.git
+cd Emotion-detection
+```
 
 # Data Preprocessing
 Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
