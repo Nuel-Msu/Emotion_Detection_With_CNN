@@ -51,12 +51,10 @@ After training for a certain number of epochs, evaluate the model's performance 
 
 ## Training and Validation Plots
 
-### Model Accuracy                                                                                                                        
-
-![Screenshot 2024-06-22 014649](https://github.com/user-attachments/assets/c754d307-9a14-4c32-a42a-14a5e7b97f11) ![Screenshot 2024-06-22 014640](https://github.com/user-attachments/assets/d3868581-e115-4783-a919-93c4d85a3def)
-
-
-
+### Model Accuracy
+![Screenshot 2024-06-22 014649](https://github.com/user-attachments/assets/c754d307-9a14-4c32-a42a-14a5e7b97f11) 
+### Loss Accuracy
+![Screenshot 2024-06-22 014640](https://github.com/user-attachments/assets/d3868581-e115-4783-a919-93c4d85a3def)
 
 # References
 - Sun, Y., Wang, X., & Tang, X. (2014). Deep Learning Face Representation from Predicting 10,000 Classes. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR '14). IEEE, Washington, DC, USA, 1891-1898. DOI:   
