@@ -36,7 +36,9 @@ cd DetectEmotion
 ```
 
 # Data Preprocessing
-Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
+* Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
+* The [original FER2013 dataset in Kaggle](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) is available as a single folder in the archieve. I had converted into a dataset of images in the JPG format for training/validation.
+
 
 # Model Architecture
 The CNN model architecture is defined as follows:
@@ -52,7 +54,7 @@ Training is performed using ImageDataGenerator.flow_from_directory to load batch
 # Checkpointing and Early Stopping
 Callbacks are implemented during training to save the best model checkpoint based on validation accuracy and to stop training early if no improvement is observed
 
-Results
+# Results
 After training for a certain number of epochs, evaluate the model's performance on the validation set to assess its accuracy. Below are the plots showing the training and validation accuracy and loss over epochs:
 
 ## Training and Validation Plots
