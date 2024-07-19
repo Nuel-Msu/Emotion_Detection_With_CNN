@@ -52,8 +52,8 @@ After training for a certain number of epochs, evaluate the model's performance 
 ## Training and Validation Plots
 
 ### Model Accuracy
-![Screenshot 2024-06-22 014649](https://github.com/user-attachments/assets/c754d307-9a14-4c32-a42a-14a5e7b97f11) 
-### Loss Accuracy
+![Screenshot 2024-07-18 211721](https://github.com/user-attachments/assets/df760943-813e-4392-bf8e-e402b715c942)
+ Loss Accuracy
 ![Screenshot 2024-06-22 014640](https://github.com/user-attachments/assets/d3868581-e115-4783-a919-93c4d85a3def)
 
 # References
