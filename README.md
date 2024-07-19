@@ -56,7 +56,7 @@ After training for a certain number of epochs, evaluate the model's performance 
 ![Model Accuracy](https://github.com/user-attachments/assets/df760943-813e-4392-bf8e-e402b715c942)
 
 ## Loss Accuracy
-![Loss Accuracy](https://github.com/user-attachments/assets/d3868581-e115-4783-a919-93c4d85a3def)
+![Loss Accuracy](https://github.com/user-attachments/assets/69a1bd3f-d74f-40cf-850e-53edef94db06)
 
 
 
