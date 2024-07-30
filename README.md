@@ -38,6 +38,8 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 * If you want to view the predictions without training again, you can download my pre-trained model `(emotion-detect.keras)` from [here](https://www.kaggle.com/code/oladeneyux/emotion-detection-dataset/output) and then run `python Detectemotion.py`.
 
+* Note: Ensure that `(emotion-detect.keras)` from [here](https://www.kaggle.com/code/oladeneyux/emotion-detection-dataset/output) is in the same directory with Emotion_Detection_With_CNN before you run the project. And if at any point you enter error, remove `(emotion-detect.keras)` from the project, download from [my Kaggle account](https://www.kaggle.com/code/oladeneyux/emotion-detection-dataset) and manually add it back to the project. 
+
 # Data Preprocessing
 * Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
 * The [original FER2013 dataset in Kaggle](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) is available as a single folder in the archieve. I had converted into a dataset of images in the JPG format for training/validation.
