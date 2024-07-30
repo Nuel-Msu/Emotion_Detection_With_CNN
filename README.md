@@ -21,12 +21,8 @@ The dataset used for training and validation is the Facial Expression Recognitio
 
 ## Installation
 
-### Environment
-
-To run the code, make sure you have TensorFlow and other necessary libraries installed. You can install them using pip:
-bash
-- pip install tensorflow matplotlib pillow
-- To install the required packages, run `pip install -r requirements.txt`.
+* Python 3, [OpenCV 3 or 4](https://opencv.org/), [Tensorflow 1 or 2](https://www.tensorflow.org/)
+* To install the required packages, run `pip install -r requirements.txt`.
 
 ## Usage
 
