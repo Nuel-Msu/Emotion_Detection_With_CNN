@@ -1,4 +1,4 @@
-# Facial Expression Recognition using Convolutional Neural Networks
+# Emotion Detection using Convolutional Neural Networks
 
 This repository contains code for building a Convolutional Neural Network (CNN) model to classify facial expressions using TensorFlow and Keras. The dataset used is the Facial Expression Recognition Dataset, which consists of grayscale images categorized into 7 classes (angry, disgust, fear, happy, neutral, sad, surprise).
 
