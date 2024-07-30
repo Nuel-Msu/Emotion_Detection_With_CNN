@@ -28,12 +28,17 @@ bash
 - pip install tensorflow matplotlib pillow
 - To install the required packages, run `pip install -r requirements.txt`.
 
+## Usage
 
-# Running the Code
-```bash
-git clone https://github.com/Nuel-Msu/Emotion_Detection_With_CNN.git
-cd DetectEmotion.py
-```
+The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
+
+* First, clone the repository with `git clone https://github.com/Nuel-Msu/Emotion_Detection_With_CNN.git` and enter the cloned folder: `cd Emotion_Detection_With_CNN`.
+
+* Download the FER-2013 dataset from [here](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) and unzip it inside the `Tensorflow` folder. This will create the folder `data`.
+
+* If you want to train this model or train after making changes to the model, kindly visit.[my Kaggle account](https://www.kaggle.com/code/oladeneyux/emotion-detection-dataset) where the model was originally trained
+
+* If you want to view the predictions without training again, you can download my pre-trained model `(emotion-detect.keras)` from [here](https://www.kaggle.com/code/oladeneyux/emotion-detection-dataset/output) and then run `python Detectemotion.py`.
 
 # Data Preprocessing
 * Images are resized to 48x48 pixels and normalized. Data augmentation techniques such as shear, zoom, and horizontal flip are applied to the training set to enhance model generalization.
