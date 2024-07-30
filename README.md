@@ -48,23 +48,8 @@ The CNN model architecture is defined as follows:
 - Output Layer: Dense layer with softmax activation for multi-class classification.
 - The model is compiled with the Adam optimizer and categorical cross-entropy loss function.
 
-# Training
-Training is performed using ImageDataGenerator.flow_from_directory to load batches of images directly from directories, enabling efficient data handling and preprocessing.
-
-# Checkpointing and Early Stopping
-Callbacks are implemented during training to save the best model checkpoint based on validation accuracy and to stop training early if no improvement is observed
-
 # Results
 After training for a certain number of epochs, evaluate the model's performance on the validation set to assess its accuracy. Below are the plots showing the training and validation accuracy and loss over epochs:
-
-![Screenshot 2024-07-04 205145](https://github.com/user-attachments/assets/9d4d7473-22cf-4ebc-8379-f847187b8a6c)
-![Screenshot 2024-07-04 204939](https://github.com/user-attachments/assets/338f80cf-de70-4d48-bafa-aa097b48b027)
-![Screenshot 2024-07-04 204218](https://github.com/user-attachments/assets/50ff4d8f-3e42-4327-a0e7-7a9bd12dfc81)
-![Screenshot 2024-07-04 204146](https://github.com/user-attachments/assets/9825b362-6494-4a66-985b-2316f1799d5d)
-![Screenshot 2024-07-04 204104](https://github.com/user-attachments/assets/bc02f035-f295-4948-bb9e-78686d738e56)
-![Screenshot 2024-07-04 204043](https://github.com/user-attachments/assets/436d8c22-0871-4f08-a9d3-42cf39fe4156)
-
-## Training and Validation Plots
 
 ### Model Accuracy 
 
@@ -72,6 +57,14 @@ After training for a certain number of epochs, evaluate the model's performance 
 
 ## Loss Accuracy
 ![Loss Accuracy](https://github.com/user-attachments/assets/69a1bd3f-d74f-40cf-850e-53edef94db06)
+
+##Exaple Output
+![Screenshot 2024-07-04 205145](https://github.com/user-attachments/assets/9d4d7473-22cf-4ebc-8379-f847187b8a6c)
+![Screenshot 2024-07-04 204939](https://github.com/user-attachments/assets/338f80cf-de70-4d48-bafa-aa097b48b027)
+![Screenshot 2024-07-04 204218](https://github.com/user-attachments/assets/50ff4d8f-3e42-4327-a0e7-7a9bd12dfc81)
+![Screenshot 2024-07-04 204146](https://github.com/user-attachments/assets/9825b362-6494-4a66-985b-2316f1799d5d)
+![Screenshot 2024-07-04 204104](https://github.com/user-attachments/assets/bc02f035-f295-4948-bb9e-78686d738e56)
+![Screenshot 2024-07-04 204043](https://github.com/user-attachments/assets/436d8c22-0871-4f08-a9d3-42cf39fe4156)
 
 
 
